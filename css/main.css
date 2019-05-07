@@ -1,17 +1,25 @@
-/*font-family: 'Barlow', sans-serif;
-font-family: 'Cabin Condensed', sans-serif;*/
+
 
 body {
   background-color: #B5DEDD;
 /*  background-image: linear-gradient(-90deg, #B5DEDD, #FFFFFF);*/
+  font-family: 'Montserrat', sans-serif;
+
+}
+h5{
+  font-weight: bolder;
+
 }
 main{
       margin-top: 3em;
 }
 
+
 h3.heading{
       text-align: center;
       text-transform: uppercase;
+      font-family: 'Montserrat Subrayada', sans-serif;
+
 }
 nav {
       background-color: #ffffff;
@@ -27,6 +35,18 @@ nav {
       padding-bottom: 1em;
 
 
+}
+.btn-link, .btn-link {
+      color: #078B87;
+      /* padding: 1em; */
+      text-decoration: none;
+}
+.btn-link:hover {
+  font-weight: bold;
+  color: #078B87;
+  background-color: #ffffff;
+  opacity: 1;
+  text-decoration: none;
 }
 
 .nav-link.active{
@@ -51,5 +71,5 @@ div.my-pic{
 }
 
 div.bio{
-      
+
 }
